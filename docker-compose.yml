@@ -1,0 +1,20 @@
+version: '3'
+services:
+  webapp:
+    build:
+      context: ./
+      args:
+        PORT: $PORT
+    image: speechtree:$RELEASE
+    container_name: speechtree
+    restart: always
+    ports:
+      - "$PORT"
+    env_file: .env
+    environment:
+      - VIRTUAL_HOST=speechtree.org,www.speechtree.org,earlyrain.org,www.earlyrain.org
+
+networks:
+  default:
+    external:
+      name: nginx-proxy

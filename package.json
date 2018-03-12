@@ -1,0 +1,28 @@
+{
+  "name": "speechtree",
+  "version": "1.0.0",
+  "description": "Static website of Speechtree and Earlyrain English language learning resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkent/speechtree.git"
+  },
+  "keywords": [
+    "static",
+    "ESL",
+    "ELL"
+  ],
+  "author": "R Kent James <rkent@caspia.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rkent/speechtree/issues"
+  },
+  "homepage": "https://github.com/rkent/speechtree#readme",
+  "dependencies": {
+    "node-static": "^0.7.10"
+  }
+}
