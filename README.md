@@ -1,3 +1,3 @@
 # Speechtree
 
-This is a static node repository to serve the English language learning files for speechtree.org and earlyrain.org
+This is a static node repository to serve the English language learning files for speechtree.com and earlyrain.org
