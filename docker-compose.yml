@@ -12,7 +12,7 @@ services:
       - "$PORT"
     env_file: .env
     environment:
-      - VIRTUAL_HOST=speechtree.org,www.speechtree.org,earlyrain.org,www.earlyrain.org
+      - VIRTUAL_HOST=speechtree.org,www.speechtree.org,earlyrain.org,www.earlyrain.org,speechtree-local.org
 
 networks:
   default:
